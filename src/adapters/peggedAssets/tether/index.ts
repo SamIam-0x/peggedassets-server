@@ -1074,6 +1074,9 @@ const adapter: PeggedIssuanceAdapter = {
   },
   sei: {
     kava: bridgedSupply("sei", 6, chainContracts.sei.bridgedFromKava),
+  },
+  sonic: {
+    ethereum: bridgedSupply("sonic", 6, chainContracts.sei.bridgedFromETH),
   }
 };
 
