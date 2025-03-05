@@ -364,5 +364,7 @@ export const chainContracts: ChainContracts = {
   },
   sei: {
     bridgedFromKava: ["0xB75D0B03c06A926e488e2659DF1A861F860bD3d1"]
-  }
+  },
+  sonic: {
+    bridgedFromETH: ["0x6047828dc181963ba44974801ff68e538da5eaf9"]
 };
