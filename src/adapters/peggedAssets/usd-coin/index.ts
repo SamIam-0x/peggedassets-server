@@ -1139,6 +1139,9 @@ const adapter: PeggedIssuanceAdapter = {
   pharos: {
     minted: chainMinted("pharos", 6),
   },
+  plasma: {
+    minted: chainMinted("plasma", 6),
+  },
 };
 
 export default adapter;
